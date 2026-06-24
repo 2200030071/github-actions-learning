@@ -6,4 +6,4 @@ jobs:
         runs-on: ubuntu-latest
         steps:
           - name: Hello Git actions
-            run: "Hello Git actions"
+            run: echo "Hello Git actions"
