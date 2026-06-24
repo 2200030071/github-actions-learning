@@ -1,9 +1,21 @@
-name: First-workflow
+name: First-WorkFlow
+
 on: 
-  push: 
+  push:
+
 jobs:
-  explore-runner:
-        runs-on: ubuntu-latest
-        steps:
-          - name: Hello Git actions
-            run: echo "Hello Git actions"
+  inspect:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Current Directory
+        run: pwd
+
+      - name: Current User
+        run: whoami
+
+      - name: Machine Name
+        run: hostname
+
+      - name: List files
+        run: ls
