@@ -5,5 +5,5 @@ jobs:
   explore-runner:
         runs-on: ubuntu-latest
         steps:
-          - name: Step1
+          - name: Hello Git actions
             run: "Hello Git actions"
