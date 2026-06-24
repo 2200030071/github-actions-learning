@@ -1,0 +1,9 @@
+name: First-workflow
+on: 
+  push: 
+jobs:
+  explore-runner:
+        runs-on: ubuntu-latest
+        steps:
+          - name: Step1
+            run: "Hello Git actions"
